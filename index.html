@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- First Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if It IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    
+    <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/bootstrap-logo.svg" alt="" width="30" height="24" 
+                class="d-inline-block align-text-bottom">Site <span>Inc.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Company</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Programming</a></li>
+                    <li><a class="dropdown-item" href="#">Web Design</a></li>
+                    <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Web Hosting</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Examples</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End Navbar -->
+
+    <!-- Start Carousel -->
+
+    <div id="myslide" class="carousel slide carousel-fade" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myslide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myslide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myslide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/01.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/02.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/03.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myslide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myslide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- End Carousel -->
+
+    <!-- Start Section -->
+
+    <section class="about text-center">
+        <div class="container">
+            <h1>Meet Our New Template <span>Site Inc.</span></h1>
+            <p class="lead">Carousels support swiping left/right on touchscreen devices to move between slides.</p>
+        </div>
+    </section>
+
+    <!-- End Section -->
+
+    <!-- Start Section Features-->
+
+    <section class="features text-center">
+        <div class="container">
+            <h1>Our Features</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat">
+                        <i class="bi bi-check-lg"></i>
+                        <h4>100% Responsive</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat">
+                        <i class="bi bi-hand-thumbs-up"></i>
+                        <h4>Retina Ready</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat">
+                        <i class="bi bi-eye"></i>
+                        <h4>Awesome Display</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat">
+                        <i class="bi bi-pencil"></i>
+                        <h4>Well Documented</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Section Features-->
+
+    <!-- Start Testimonials Section -->
+
+    <section class="testimonials text-center">
+        <div class="container">
+            <h1>What Our Clients Say</h1>
+            <div id="carousel-testimonials" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="lead">Some representative placeholder content for the first slide. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <span>Mohamed Alaa</span>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="lead">Some representative placeholder content for the first slide. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <span>Ahmed Said</span>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="lead">Some representative placeholder content for the first slide. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <span>Haneen Alaa</span>
+                    </div>
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                        <img src="images/001-02.jpg" alt="Mohamed Alaa">
+                    </button>
+                    <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="1" aria-label="Slide 2">
+                        <img src="images/002-02.jpg" alt="Ahmed Said">
+                    </button>
+                    <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="2" aria-label="Slide 3">
+                        <img src="images/003-02.jpg" alt="Haneen Alaa">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Testimonials Section -->
+
+    <!-- Start Price Table Section -->
+
+    <section class="price-table text-center">
+        <div class="container">
+            <h1>Our Amazing Prices</h1>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="price-box">
+                        <h2>Hosting</h2>
+                        <p>$40</p>
+                        <ul class="list-unstyled">
+                            <li>Space: 30GB</li>
+                            <li>Email: 20</li>
+                            <li>IP: 2 ip</li>
+                            <li>Databases: 10</li>
+                            <li>FTP Accounts: 5</li>
+                        </ul>
+                        <a href="#" class="btn btn-info">Order New</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="price-box">
+                        <h2>VPS</h2>
+                        <p>$50</p>
+                        <ul class="list-unstyled">
+                            <li>Space: 50GB</li>
+                            <li>Email: 30</li>
+                            <li>IP: 5 ip</li>
+                            <li>Databases: 20</li>
+                            <li>FTP Accounts: 10</li>
+                        </ul>
+                        <a href="#" class="btn btn-info">Order New</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="price-box">
+                        <h2>Dedicated</h2>
+                        <p>$70</p>
+                        <ul class="list-unstyled">
+                            <li>Space: 80GB</li>
+                            <li>Email: 40</li>
+                            <li>IP: 8 ip</li>
+                            <li>Databases: 30</li>
+                            <li>FTP Accounts: 20</li>
+                        </ul>
+                        <a href="#" class="btn btn-info">Order New</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="price-box">
+                        <h2>Cloud</h2>
+                        <p>$90</p>
+                        <ul class="list-unstyled">
+                            <li>Space: 90GB</li>
+                            <li>Email: 50</li>
+                            <li>IP: 10 ip</li>
+                            <li>Databases: 50</li>
+                            <li>FTP Accounts: 50</li>
+                        </ul>
+                        <a href="#" class="btn btn-info">Order New</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Price Table Section -->
+
+    <!-- Start Our Team Section -->
+
+    <section class="our-team text-center">
+        <div class="team">
+            <div class="container">
+                <h1>Meet Our Awesome Team</h1>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="person">
+                            <img class="rounded-circle" src="images/001-02.jpg" alt="Mohamed Alaa">
+                            <h3>Mohamed Alaa</h3>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            <a href="#"><i class="fa-brands fa-google"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="person">
+                            <img class="rounded-circle" src="images/002-02.jpg" alt="Mahmod Ahmed">
+                            <h3>Mahmod Ahmed</h3>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            <a href="#"><i class="fa-brands fa-google"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="person">
+                            <img class="rounded-circle" src="images/003-02.jpg" alt="Salma Gamal">
+                            <h3>Salma Gamal</h3>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            <a href="#"><i class="fa-brands fa-google"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="person">
+                            <img class="rounded-circle" src="images/003-02.jpg" alt="Haneen Alaa">
+                            <h3>Haneen Alaa</h3>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            <a href="#"><i class="fa-brands fa-google"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Our Team Section -->
+
+    <!-- Start Subscribe Section -->
+
+    <section class="subscribe text-center">
+        <div class="container">
+            <h1>Keep In Touch</h1>
+            <p class="lead">Sign Up For Newsletter Don't Worry About Spam We Hate It Too.</p>
+            <form class="form-inline">
+                <input class="form-control" type="text" placeholder="Write Your Email">
+                <button class="btn btn-danger"><i class="fa fa-edit"></i> Subscribe</button>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- End Subscribe Section -->
+
+    <!-- Start Stats Section -->
+
+    <section class="statistics text-center">
+        <div class="data">
+            <div class="container">
+                <h1>Our Main Statistics</h1>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="stats">
+                            <i class="fa fa-users fa-5x"></i>
+                            <p>9,550</p>
+                            <span>Satisfied Users</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="stats">
+                            <i class="fa fa-comments fa-5x"></i>
+                            <p>25,684</p>
+                            <span>Posted Comments</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="stats">
+                            <i class="fa fa-suitcase fa-5x"></i>
+                            <p>3,250</p>
+                            <span>Projects Done</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="stats">
+                            <i class="fa fa-headset fa-5x"></i>
+                            <p>95,854</p>
+                            <span>Tickets Archieved</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Stats Section -->
+
+    <!-- Start Skills Section -->
+
+    <section class="our-skills">
+        <div class="container">
+            <h1 class="text-center">Our Skills</h1>
+            <div class="row">
+
+                 <!-- Start Team Info -->
+                 <div class="col-md-6">
+                    <div class="skills-info">
+                        <h3>About The Team</h3>
+                        <p class="lead">Some representative placeholder content for the first slide. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <button type="button" class="btn">Talk With A Professional</button>
+                    </div>
+                </div>
+                <!-- End Team Info -->
+
+                <!-- Start Progress Skills -->
+                <div class="col-md-5 offset-md-1">
+                    <div class="skills-progress">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="93" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 93%">Htmal / Css</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 80%">PHP / MySQL</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 70%">Javascript / jQuery</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 86%">Wordpress</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Progress Skills -->
+            </div>
+        </div>
+    </section>
+
+    <!-- End Skills Section -->
+
+    <!-- Start Contact Us Section -->
+
+    <section class="contact-us text-center">
+        <div class="fields">
+            <div class="container">
+                <div class="row">
+                    <i class="fa fa-headphones fa-5x"></i>
+                    <h1>Tell Us What You Fell</h1>
+                    <p class="lead">Feel Free To Contact Us Anytime</p>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Cell Phone">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-danger">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Contact Us Section -->
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+</body>
+</html>
