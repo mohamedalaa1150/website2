@@ -1,0 +1,44 @@
+/**** Start Default Theme ****/
+
+.navbar-dark .navbar-brand span,
+.navbar-dark .navbar-nav .nav-item .nav-link:hover,
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.dropdown-divider,
+.about h1 span,
+.features .feat i,
+.testimonials span,
+.price-table .price-box h2,
+.subscribe .h1,
+.footer h3,
+.footer .copyright span,
+.price-table .price-box a,
+#scroll-top,
+.about-features i,
+.about-ceo h2,
+.accordion-button:not(.collapsed)
+{color: #0d7ff0;}
+
+.dropdown-item:hover,
+.carousel-indicators .active,
+.option-box .gear-check,
+.price-table .price-box a:hover,
+.our-skills button
+{background-color: #0d7ff0;}
+
+.option-box .color-option,
+.price-table .price-box a
+{border: 3px solid #0d7ff0;}
+
+.our-team .team,
+.statistics .data,
+.contact-us .fields
+{background-color: rgba(13, 127, 240, 0.8);}
+
+.dropdown-menu {border-top: 3px solid #0d7ff0;}
+
+.accordion-button:focus {
+    border-color: #0d7ff0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 127, 240, 0.25);}
+
+/**** End Default Theme ****/

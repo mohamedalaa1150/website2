@@ -1,0 +1,37 @@
+/* Smart Phone And Tablets */
+
+@media (max-width: 767px)
+{
+    .navbar-dark .navbar-nav > li > a
+    {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .our-clients ul li img
+    {
+        width: 30%;
+    }
+
+    .footer .image-text-center {text-align: center;}
+}
+
+/* Small Screen */
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    
+}
+
+/* Medium Screen */
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    
+}
+
+/* Large Screen */
+
+@media (min-width: 1200px) 
+{
+    
+}
