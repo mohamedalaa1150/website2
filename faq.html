@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- First Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/default_theme.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <!--[if It IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <!-- Start Section Tool Box -->
+
+    <section class="option-box">
+        <div class="color-option">
+            <h4>Color Option</h4>
+            <ul class="list-unstyled">
+                <li data-value="css/default_theme.css"></li>
+                <li data-value="css/darkRed_theme.css"></li>
+                <li data-value="css/purple_theme.css"></li>
+                <li data-value="css/yellow_theme.css"></li>
+                <li data-value="css/blue_theme.css"></li>
+            </ul>
+        </div>
+        <i class="fa fa-gear fa-2x gear-check"></i>
+    </section>
+
+    <!-- End Section Tool Box -->
+
+    <!-- Start Navbar -->
+    
+    <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/bootstrap-logo.svg" alt="" width="30" height="24" 
+                class="d-inline-block align-text-bottom">Site <span>Inc.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="faq.html">FAQ</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Programming</a></li>
+                    <li><a class="dropdown-item" href="#">Web Design</a></li>
+                    <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Web Hosting</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End Navbar -->
+
+    <!-- Start Breadcrumb -->
+    <div class="breadcrumb-holder">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">FAQ</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- End Breadcrumb -->
+
+    <!-- Start FAQ Intro-->
+
+    <section class="faq text-center">
+        <div class="container">
+            <h1>Frequently Asked Questions</h1>
+            <hr>
+            <p class="lead">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+        </div>
+    </section>
+
+    <!-- End FAQ Intro -->
+
+    <!-- Start FAQ Accordion -->
+
+    <section class="faq-questions">
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      #1 How To Use Bootstrap Version 3.0?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        #2 How To Use Media Queries?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        #3 How To Create Your Own Slider?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        #4 How To Create Your Own Accordion?
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- End FAQ Accordion -->
+
+    <!-- Start Section Ultimate Footer -->
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <h3>Sitemap</h3>
+                    <ul class="list-unstyled three-columns">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Company</li>
+                        <li>Code</li>
+                        <li>Design</li>
+                        <li>Host</li>
+                        <li>Solutions</li>
+                        <li>Sitemap</li>
+                        <li>Contact</li>
+                    </ul>
+                    <ul class="list-unstyled social-icons">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-whatsapp"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                        <li><i class="fa-brands fa-youtube"></i></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3>Latest Articles</h3>
+                    <div class="d-flex">
+                        <div class="flex-shrink-0">
+                            <img src="images/001-02.jpg" alt="Image 1">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5>Jhon Carter</h5>
+                            <p>Excellent feature! I love it. One day I'm definitely going to put this Bootstrap.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="flex-shrink-0">
+                            <img src="images/002-02.jpg" alt="Image 2">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5>Jhon Carter</h5>
+                            <p>Excellent feature! I love it. One day I'm definitely going to put this Bootstrap.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="flex-shrink-0">
+                            <img src="images/003-02.jpg" alt="Image 3">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h5>Jhon Carter</h5>
+                            <p>Excellent feature! I love it. One day I'm definitely going to put this Bootstrap.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 image-text-center">
+                    <h3>Our Awesome Work</h3>
+                    <img class="img-thumbnail" src="images/01.jpg" alt="">
+                    <img class="img-thumbnail" src="images/02.jpg" alt="">
+                    <img class="img-thumbnail" src="images/03.jpg" alt="">
+                    <img class="img-thumbnail" src="images/02.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="copyright text-center">
+            Copyright &copy; 2022 <span>Template Name</span> .Inc
+        </div>
+
+    </section>
+
+    <!-- End Section Ultimate Footer -->
+
+
+
+    <!-- Start Scroll Button -->
+
+    <div id="scroll-top">
+        <i class="fa fa-chevron-up fa-3x"></i>
+    </div>
+
+    <!-- End Scroll Button -->
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+
+
+</body>
+</html>
